@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LeetCode Logger</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <form id="log-form">
+            <textarea id="notes" placeholder="How did you solve it?" maxlength="100" required></textarea>
+            <input id="difficulty" type="number" placeholder="Difficulty" min="1" max="10" required />
+            <select id="tag" required>
+                <option value="" disabled selected>Select a tag</option>
+                <option value="Arrays & Hashing">Arrays & Hashing</option>
+                <option value="Two Pointers">Two Pointers</option>
+                <option value="Stack">Stack</option>
+                <option value="Binary Search">Binary Search</option>
+                <option value="Linked List">Linked List</option>
+                <option value="Trees">Trees</option>
+                <option value="1-D DP">1-D DP</option>
+                <option value="2-D DP">2-D DP</option>
+                <option value="Graph">Graph</option>
+                <option value="Backtracking">Backtracking</option>
+                <option value="Trie">Trie</option>
+                <option value="Heap">Heap</option>
+                <option value="Intervals">Intervals</option>
+                <option value="Strings">Strings</option>
+                <option value="Bit Manipulation">Bit Manipulation</option>
+                <option value="Math & Geometry">Math & Geometry</option>
+                <option value="Greedy">Greedy</option>
+                <option value="Advanced Graphs">Advanced Graphs</option>
+            </select>
+            <div class="flex">
+                <label>
+                    <input type="checkbox" id="daily" />
+                    Daily
+                </label>
+                <label>
+                    <input type="checkbox" id="weekly" />
+                    Weekly
+                </label>
+            </div>
+            <hr>
+            <div class="space-between">
+                <div class="flex">
+                    <button id="submit" type="submit">Log to Sheet</button>
+                    <p id="status"></p>
+                </div>
+
+                <button id="open" type="button">Sheet &nearr;</button>
+            </div>
+        </form>
+        <script src="consts.js"></script>
+        <script src="popup.js"></script>
+    </body>
+</html>

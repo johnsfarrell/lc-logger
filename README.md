@@ -3,7 +3,7 @@ My chrome extension for logging leetcode solutions. It simply provides a form fo
 To use this yourself:
 
 1. Clone this repository
-2. Create a Google Script and deploy it with the following contents:
+2. Create a [Google Script](https://script.google.com/) and deploy it with the following contents:
     ```javascript
     function doGet(e) {
 

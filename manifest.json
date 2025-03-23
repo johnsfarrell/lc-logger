@@ -1,12 +1,12 @@
 {
-    "name": "LeetCode Tracker",
-    "description": "This extension will help you to track your LeetCode progress.",
-    "version": "1.0",
-    "manifest_version": 3,
-    "action": {
-      "default_popup": "index.html",
-      "default_icon": "icon.png"
-    },
-    "permissions": ["tabs", "activeTab", "scripting"]
-  }
+  "name": "LC Tracker",
+  "description": "Log LeetCode solutions to a Google Sheet",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": ["tabs", "activeTab", "scripting"]
+}
   

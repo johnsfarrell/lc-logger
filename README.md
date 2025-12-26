@@ -1,4 +1,4 @@
-My chrome extension for logging leetcode solutions. It simply provides a form for you to describe your solution, how hard it was, and a tag for the problem. This information as well as basic information about the problem is is logged to a specified google sheet.
+My chrome extension for logging leetcode solutions. It simply provides a form for you to describe your solution, how hard it was, and a tag for the problem. This information as well as basic information about the problem is logged to a specified google sheet.
 
 To use this yourself:
 
